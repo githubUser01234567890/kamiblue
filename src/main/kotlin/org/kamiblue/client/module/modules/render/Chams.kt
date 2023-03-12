@@ -59,7 +59,7 @@ internal object Chams : Module(
         ENTITY_TYPE, RENDERING
     }
 
-    private var cycler = HueCycler(600)
+    private var cycler = HueCycler(1616)
 
     init {
         listener<RenderEntityEvent.All>(2000) {
